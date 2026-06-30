@@ -118,11 +118,11 @@ class MyApp extends StatelessWidget {
                         builder: (context, setModalState) {
                         return Padding(
                         padding: EdgeInsets.only(
-                          bottom: MediaQuery.of(context).viewInsets.bottom, // مسافة للكيبورد
+                          bottom: MediaQuery.of(context).viewInsets.bottom, 
                           top: 20, left: 20, right: 20,
                         ),
                         child: Column(
-                          mainAxisSize: MainAxisSize.min, // يخلي حجم الـ BottomSheet على قد المحتوى
+                          mainAxisSize: MainAxisSize.min,  
                           children: [
                             const Text('Add New Task',style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
                             const SizedBox(height: 15),
